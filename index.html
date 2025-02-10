@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destacados - Galería Estética</title>
+    <link rel="stylesheet" href="destacados.css">
+    <script defer src="destacados.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Destacados</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="menu-button">Inicio</a></li>
+                <li><a href="secciones.html" class="menu-button">Secciones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenedor de Destacados -->
+    <section class="destacados-container">
+        <div class="destacado-card" data-seccion="fotografia">
+            <img src="https://picsum.photos/400/500?random=10" alt="Fotografía">
+            <div class="overlay">
+                <h2>Fotografía</h2>
+            </div>
+        </div>
+
+        <div class="destacado-card grande" data-seccion="diseno">
+            <img src="https://picsum.photos/500/600?random=11" alt="Diseño Gráfico">
+            <div class="overlay">
+                <h2>Diseño Gráfico</h2>
+            </div>
+        </div>
+
+        <div class="destacado-card" data-seccion="arquitectura">
+            <img src="https://picsum.photos/400/500?random=12" alt="Arquitectura">
+            <div class="overlay">
+                <h2>Arquitectura</h2>
+            </div>
+        </div>
+
+        <div class="destacado-card grande" data-seccion="innovacion">
+            <img src="https://picsum.photos/500/700?random=13" alt="Innovación">
+            <div class="overlay">
+                <h2>Innovación</h2>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
